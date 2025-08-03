@@ -1,0 +1,134 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #f0f8ff;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100px;
+}
+#forecast {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+#currentWeather,
+#forecast {
+  margin-top: 20px;
+}
+
+.forecast-day {
+  background: #e8e8e8;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* purple to blue gradient */
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent white box */
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container {
+  max-width:   1200px; /* increase this value to make it wider */
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  background-color: rgba(0, 0, 0, 0.3);  /* semi-dark background */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a0dad 30%, #1e90ff 70%);
+  min-height: 100vh;
+  color: white;
+}
+
